@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe Championship</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <h1>🏆 Tic Tac Toe Championship</h1>
+
+    <div class="player-inputs">
+
+        <input
+        type="text"
+        id="playerX"
+        placeholder="Player X Name">
+
+        <input
+        type="text"
+        id="playerO"
+        placeholder="Player O Name">
+
+        <button id="startBtn">
+            Start Game
+        </button>
+
+    </div>
+
+    <h2 id="status">
+        Enter Names & Start Game
+    </h2>
+
+    <div class="scoreboard">
+
+        <div class="score-card">
+            <h3 id="xName">Player X</h3>
+            <p>Score:
+                <span id="xScore">0</span>
+            </p>
+        </div>
+
+        <div class="score-card">
+            <h3 id="oName">Player O</h3>
+            <p>Score:
+                <span id="oScore">0</span>
+            </p>
+        </div>
+
+    </div>
+
+    <div class="board">
+
+        <button class="cell"></button>
+        <button class="cell"></button>
+        <button class="cell"></button>
+
+        <button class="cell"></button>
+        <button class="cell"></button>
+        <button class="cell"></button>
+
+        <button class="cell"></button>
+        <button class="cell"></button>
+        <button class="cell"></button>
+
+    </div>
+
+    <button id="resetBtn">
+        Next Round
+    </button>
+
+    <button id="newMatchBtn">
+        New Match
+    </button>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
