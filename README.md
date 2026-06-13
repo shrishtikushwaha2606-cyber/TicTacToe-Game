@@ -41,6 +41,14 @@ A modern Tic Tac Toe game built with **HTML**, **CSS**, and **JavaScript** featu
 * Score Management
 * Responsive Design
 
+## Screenshot
+<img width="1600" height="786" alt="WhatsApp Image 2026-06-14 at 02 55 27" src="https://github.com/user-attachments/assets/9bb9d2cb-4872-45c5-a9d8-9d8a184088fa" />
+
+
+## Live Demo
+
+https://shrishtikushwaha2606-cyber.github.io/TicTacToe-Game/
+
 ## 👨‍💻 Author
 
 **Shrishti Kushwaha**
